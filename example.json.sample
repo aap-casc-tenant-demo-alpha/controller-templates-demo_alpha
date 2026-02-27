@@ -1,0 +1,17 @@
+{
+    "controller_templates": [
+        {
+            "ask_variables_on_launch": false,
+            "credentials": [
+                "crd-demo_alpha-mch-example"
+            ],
+            "description": "Example job template \u2014 replace with your automation use-case",
+            "inventory": "inv-demo_alpha-src-dev-example",
+            "name": "jt-demo_alpha-example",
+            "organization": "org-demo_alpha",
+            "playbook": "site.yml",
+            "project": "prj-demo_alpha-example",
+            "verbosity": 0
+        }
+    ]
+}
