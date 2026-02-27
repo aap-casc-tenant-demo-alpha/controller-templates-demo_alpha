@@ -1,0 +1,15 @@
+{
+    "controller_templates": [
+        {
+            "name": "jt-demo_alpha-hello_world",
+            "description": "Hello World job template for tenant Alpha",
+            "organization": "org-demo_alpha",
+            "project": "prj-demo_alpha-hello_world",
+            "playbook": "hello_world.yml",
+            "inventory": "inv-demo_alpha-hello_world-dev",
+            "job_type": "run",
+            "ask_variables_on_launch": false,
+            "verbosity": 0
+        }
+    ]
+}
